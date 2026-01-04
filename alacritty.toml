@@ -1,0 +1,17 @@
+[window]
+decorations = "none"
+opacity = 0.75 # Matching the "Shadow" atmosphere
+
+[colors.primary]
+background = "#0F0508" # Void Black
+foreground = "#F0E0E6" # Moonlit White
+
+[colors.normal]
+black   = "#1A0F11"
+red     = "#FF0000"
+green   = "#FF3D61"
+yellow  = "#D9263E"
+blue    = "#FF1F4C" # Sword Glow Red
+magenta = "#BE2E3F"
+cyan    = "#DE3448"
+white   = "#F0E0E6"

@@ -1,0 +1,5 @@
+/* Waybar Red Monarch Theme */
+@define-color foreground #F0E0E6; /* Moonlit White */
+@define-color background rgba(15, 5, 8, 0.75); /* Deep Red-Black with 75% opacity */
+@define-color accent     #D9263E; /* Hair Red */
+@define-color glow       #FF1F4C; /* Sword Glow Red */

@@ -1,0 +1,74 @@
+# ── Red Monarch (Monochrome Red Atmospheric) ──
+# Matches the red-black gradient from the Alacritty setup.
+
+# Main background, leave empty for transparency
+theme[main_bg]=""
+
+# Main text color (Pale moonlit pink-white)
+theme[main_fg]="#F0E0E6"
+
+# Title color for boxes (Vibrant hair red)
+theme[title]="#D9263E"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#FF1F4C"
+
+# Background color of selected item in processes box (Deep red-black)
+theme[selected_bg]="#3E161B"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#FFFFFF"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#471B24"
+
+# Misc colors for processes box including mini cpu graphs
+theme[proc_misc]="#BE2E3F"
+
+# Box outline and divider line color
+theme[cpu_box]="#5E1C24"
+theme[mem_box]="#5E1C24"
+theme[net_box]="#5E1C24"
+theme[proc_box]="#5E1C24"
+theme[div_line]="#3E161B"
+
+# Gradients for all meters and graphs (Going from Glow-Red to Deep-Red)
+theme[temp_start]="#FF3D61"
+theme[temp_mid]="#D9263E"
+theme[temp_end]="#7E222D"
+
+theme[cpu_start]="#FF1F4C"
+theme[cpu_mid]="#BE2E3F"
+theme[cpu_end]="#5E1C24"
+
+theme[mem_start]="#FF7A8C"
+theme[mem_mid]="#9E2836"
+theme[mem_end]="#3E161B"
+
+theme[net_start]="#FFB8B7"
+theme[net_mid]="#DE3448"
+theme[net_end]="#7E222D"
+
+theme[proc_start]="#FF99A1"
+theme[proc_mid]="#BE2E3F"
+theme[proc_end]="#5E1C24"
+
+# Bottom bar
+theme[btm_bg]=""
+theme[btm_fg]="#F0E0E6"
+
+# ── Explicit overrides (Red Spectrum) ──
+theme[power]       = "#FF1F4C"
+theme[cpu_power]   = "#FF1F4C"
+theme[watts]       = "#D9263E"
+theme[freq]        = "#D9263E"
+theme[cpu_freq]    = "#D9263E"
+theme[ghz]         = "#D9263E"
+theme[temp]        = "#F0E0E6"
+theme[temp_crit]   = "#FF1F4C"
+theme[gpu_power]   = "#FF1F4C"
+theme[gpu_freq]    = "#D9263E"
+theme[gpu_temp]    = "#D9263E"
+theme[cpu_text]    = "#F0E0E6"
+
+# ── End Red Monarch Theme ──

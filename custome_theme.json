@@ -1,0 +1,146 @@
+{
+  "name": "RedMonarch_Master",
+  "created_at": "2025-10-14T16:21:09.326661916+00:00",
+  "modified_at": "2025-12-31T09:44:00.000000000+00:00",
+  "apps": {
+    "alacritty": {
+      "colors": {
+        "bright": {
+          "black": "#331A1F",
+          "blue": "#FF7A8C",
+          "cyan": "#FFB8B7",
+          "green": "#FF3D61",
+          "magenta": "#FF99A1",
+          "red": "#FF1F4C",
+          "white": "#FFFFFF",
+          "yellow": "#FF5C77"
+        },
+        "cursor": {
+          "text": "#0F0508",
+          "cursor": "#FF1F4C"
+        },
+        "normal": {
+          "black": "#1A0F11",
+          "blue": "#9E2836",
+          "cyan": "#DE3448",
+          "green": "#5E1C24",
+          "magenta": "#BE2E3F",
+          "red": "#3E161B",
+          "white": "#F0E0E6",
+          "yellow": "#7E222D"
+        },
+        "primary": {
+          "background": "#0F0508",
+          "dim_foreground": "#471B24",
+          "foreground": "#F0E0E6"
+        },
+        "selection": {
+          "background": "#5E1C24",
+          "text": "#FFFFFF"
+        }
+      },
+      "font": {
+        "size": 11
+      },
+      "window": {
+        "padding": { "x": 18, "y": 14 },
+        "opacity": 0.75
+      }
+    },
+    "btop": {
+      "available_end": "#7E222D",
+      "available_mid": "#D9263E",
+      "available_start": "#FF3D61",
+      "cached_end": "#3E161B",
+      "cached_mid": "#9E2836",
+      "cached_start": "#FF7A8C",
+      "colors": {
+        "basic": {
+          "hi_fg": "#FF1F4C",
+          "selected_bg": "#3E161B"
+        },
+        "cpu": { "cpu_mid": "#BE2E3F" },
+        "memory": {
+          "available_mid": "#BE2E3F",
+          "cached_mid": "#BE2E3F",
+          "free_mid": "#BE2E3F",
+          "used_mid": "#BE2E3F"
+        },
+        "temperature": { "temp_mid": "#BE2E3F" }
+      },
+      "cpu_box": "#5E1C24",
+      "cpu_start": "#FF1F4C",
+      "div_line": "#3E161B",
+      "hi_fg": "#FF1F4C",
+      "main_fg": "#F0E0E6",
+      "selected_bg": "#3E161B",
+      "selected_fg": "#FFFFFF",
+      "title": "#D9263E"
+    },
+    "hyprland": {
+      "general": {
+        "active_border": "rgba(D9263EAA) rgba(5E1C2466) 90deg",
+        "inactive_border": "rgba(1A0F1199)",
+        "border_size": 3,
+        "gaps_in": 2,
+        "gaps_out": 4
+      },
+      "decoration": {
+        "rounding": 15,
+        "active_opacity": 1.0,
+        "inactive_opacity": 0.92,
+        "shadow": {
+          "enabled": true,
+          "color": "rgba(FF1F4C66)",
+          "color_inactive": "rgba(0F050866)",
+          "range": 25
+        }
+      },
+      "group": {
+        "col_border_active": "rgba(BE2E3F88)",
+        "col_border_inactive": "rgba(1A0F1188)"
+      }
+    },
+    "mako": {
+      "background_color": "#0F0508CC",
+      "border_color": "#D9263EAA",
+      "text_color": "#F0E0E6",
+      "progress_color": "#BE2E3F88",
+      "border_size": 2,
+      "font": "JetBrainsMono Nerd Font 11"
+    },
+    "walker": {
+      "background": "rgba(15, 5, 8, 0.75)",
+      "border": "#3E161B",
+      "input_color": "#FF1F4C",
+      "selected_bg": "linear-gradient(90deg, rgba(217, 38, 62, 0.25), transparent)",
+      "text_color": "#F0E0E6"
+    },
+    "waybar": {
+      "background": "rgba(15, 5, 8, 0.75)",
+      "border_bottom": "#D9263E",
+      "modules": {
+        "clock": "#FF1F4C",
+        "cpu": "#BE2E3F",
+        "memory": "#9E2836",
+        "workspaces_active": "#FF1F4C"
+      }
+    }
+  },
+  "colors": {
+    "primary": {
+      "background": "#0F0508",
+      "foreground": "#F0E0E6",
+      "accent": "#D9263E",
+      "glow": "#FF1F4C"
+    },
+    "terminal": {
+      "red": "#FF1F4C",
+      "green": "#FF3D61",
+      "yellow": "#D9263E",
+      "blue": "#9E2836",
+      "magenta": "#BE2E3F",
+      "cyan": "#DE3448"
+    }
+  }
+}
