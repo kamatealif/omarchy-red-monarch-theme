@@ -1,17 +1,22 @@
 [window]
 decorations = "none"
-opacity = 0.75 # Matching the "Shadow" atmosphere
+opacity = 0.98 # Slight transparency for readability
 
 [colors.primary]
 background = "#10090B" # Void Black
-foreground = "#7F7A7B" # Moonlit White
+foreground = "#EDEDED" # Moonlit White
 
 [colors.normal]
 black   = "#120B0D"
-red     = "#B91A3B"
-green   = "#D81D43"
-yellow  = "#B91A3B"
-blue    = "#D51D42" # Sword Glow Red
-magenta = "#8D162F"
-cyan    = "#C31B3D"
-white   = "#7F7A7B"
+red     = "#BF1111"
+green   = "#BF1111"
+yellow  = "#BF1111"
+blue    = "#BF1111" # Sword Glow Red
+magenta = "#BF1111"
+cyan    = "#BF1111"
+white   = "#EDEDED"
+
+
+[colors.selection]
+background = "#32292C"
+text = "#EDEDED"

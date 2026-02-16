@@ -12,25 +12,25 @@ local M = {
 
         local colors = {
           panel  = "NONE",
-          fg     = "#7F7A7B",
-          border = "#44161C",
+          fg     = "#EDEDED",
+          border = "#BF1111",
 
-          glow_red  = "#D81D43",
-          hot_red   = "#D51D42",
-          mid_red   = "#B91A3B",
-          deep_red  = "#4B111C",
-          dark_red  = "#44161C",
-          abyss_red = "#1F0D10",
+          glow_red  = "#BF1111",
+          hot_red   = "#BF1111",
+          mid_red   = "#BF1111",
+          deep_red  = "#BF1111",
+          dark_red  = "#BF1111",
+          abyss_red = "#BF1111",
 
-          light_red = "#DA2045",
-          blush_red = "#DA2045",
-          pale_red  = "#7F7A7B",
+          light_red = "#BF1111",
+          blush_red = "#BF1111",
+          pale_red  = "#EDEDED",
 
-          subtle    = "#601523",
-          cursor    = "#D51D42",
+          subtle    = "#BF1111",
+          cursor    = "#BF1111",
 
           -- 🩸 Shaded selection (muted, not loud)
-          selection = "#33292C",
+          selection = "#32292C",
         }
 
         local function set(g, o)
@@ -46,8 +46,8 @@ local M = {
         set("SignColumn",   vim.tbl_extend("force", { fg = colors.subtle }, P))
         set("FoldColumn",   vim.tbl_extend("force", { fg = colors.subtle }, P))
         set("LineNr",       vim.tbl_extend("force", { fg = colors.subtle }, P))
-        set("CursorLine",   { bg = colors.abyss_red })
-        set("CursorColumn", { bg = colors.abyss_red })
+        set("CursorLine",   { bg = colors.selection })
+        set("CursorColumn", { bg = colors.selection })
 
         set("Cursor",   { fg = colors.panel, bg = colors.cursor })
         set("CursorIM", { fg = colors.panel, bg = colors.cursor })
@@ -80,10 +80,10 @@ local M = {
         set("Comment",    { fg = colors.subtle, italic = true })
         
         -- Dark red for specific elements only
-        set("Keyword",    { fg = "#DA2045", bold = false })
-        set("Function",   { fg = "#DA2045", bold = false })
-        set("Operator",   { fg = "#DA2045" })
-        set("Delimiter",  { fg = "#DA2045" })
+        set("Keyword",    { fg = "#BF1111", bold = false })
+        set("Function",   { fg = "#BF1111", bold = false })
+        set("Operator",   { fg = "#BF1111" })
+        set("Delimiter",  { fg = "#BF1111" })
         
         -- Everything else in subtle grays
         set("Constant",   { fg = colors.fg })

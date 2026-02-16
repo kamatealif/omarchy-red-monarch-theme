@@ -1,10 +1,10 @@
 /* ── Minimalist Red Monarch OSD ── */
 
 @define-color bg        #10090B; /* Deep red-black base */
-@define-color fg        #7F7A7B; /* Moonlit white text */
-@define-color border    #B91A3B; /* Hair Red */
-@define-color progress1 #D51D42; /* Sword Glow Red */
-@define-color progress2 #8D162F; /* Vivid Red */
+@define-color fg        #EDEDED; /* Moonlit white text */
+@define-color border    #BF1111; /* Hair Red */
+@define-color progress1 #BF1111; /* Sword Glow Red */
+@define-color progress2 #BF1111; /* Vivid Red */
 
 window {
   background-color: transparent;
@@ -49,7 +49,7 @@ progressbar {
 
 progressbar > trough,
 progressbar trough {
-  background: rgba(68, 22, 28, 0.4); /* Subtle track */
+  background: rgba(191, 17, 17, 0.4); /* Subtle track */
   border-radius: 4px; /* Sharp corners for the progress track */
   min-height: 4px; /* Much thinner bar */
 }

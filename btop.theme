@@ -5,70 +5,70 @@
 theme[main_bg]=""
 
 # Main text color (Pale moonlit pink-white)
-theme[main_fg]="#7F7A7B"
+theme[main_fg]="#EDEDED"
 
 # Title color for boxes (Vibrant hair red)
-theme[title]="#B91A3B"
+theme[title]="#BF1111"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#D51D42"
+theme[hi_fg]="#BF1111"
 
 # Background color of selected item in processes box (Deep red-black)
-theme[selected_bg]="#1F0D10"
+theme[selected_bg]="#BF1111"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#7F7A7B"
+theme[selected_fg]="#EDEDED"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#291217"
 
 # Misc colors for processes box including mini cpu graphs
-theme[proc_misc]="#8D162F"
+theme[proc_misc]="#BF1111"
 
 # Box outline and divider line color
-theme[cpu_box]="#44161C"
-theme[mem_box]="#44161C"
-theme[net_box]="#44161C"
-theme[proc_box]="#44161C"
-theme[div_line]="#1F0D10"
+theme[cpu_box]="#BF1111"
+theme[mem_box]="#BF1111"
+theme[net_box]="#BF1111"
+theme[proc_box]="#BF1111"
+theme[div_line]="#BF1111"
 
 # Gradients for all meters and graphs (Going from Glow-Red to Deep-Red)
-theme[temp_start]="#D81D43"
-theme[temp_mid]="#B91A3B"
-theme[temp_end]="#4B111C"
+theme[temp_start]="#BF1111"
+theme[temp_mid]="#BF1111"
+theme[temp_end]="#BF1111"
 
-theme[cpu_start]="#D51D42"
-theme[cpu_mid]="#8D162F"
-theme[cpu_end]="#44161C"
+theme[cpu_start]="#BF1111"
+theme[cpu_mid]="#BF1111"
+theme[cpu_end]="#BF1111"
 
-theme[mem_start]="#DA2045"
-theme[mem_mid]="#601523"
-theme[mem_end]="#1F0D10"
+theme[mem_start]="#BF1111"
+theme[mem_mid]="#BF1111"
+theme[mem_end]="#BF1111"
 
-theme[net_start]="#7F7A7B"
-theme[net_mid]="#C31B3D"
-theme[net_end]="#4B111C"
+theme[net_start]="#EDEDED"
+theme[net_mid]="#BF1111"
+theme[net_end]="#BF1111"
 
-theme[proc_start]="#DA2045"
-theme[proc_mid]="#8D162F"
-theme[proc_end]="#44161C"
+theme[proc_start]="#BF1111"
+theme[proc_mid]="#BF1111"
+theme[proc_end]="#BF1111"
 
 # Bottom bar
 theme[btm_bg]=""
-theme[btm_fg]="#7F7A7B"
+theme[btm_fg]="#EDEDED"
 
 # ── Explicit overrides (Red Spectrum) ──
-theme[power]       = "#D51D42"
-theme[cpu_power]   = "#D51D42"
-theme[watts]       = "#B91A3B"
-theme[freq]        = "#B91A3B"
-theme[cpu_freq]    = "#B91A3B"
-theme[ghz]         = "#B91A3B"
-theme[temp]        = "#7F7A7B"
-theme[temp_crit]   = "#D51D42"
-theme[gpu_power]   = "#D51D42"
-theme[gpu_freq]    = "#B91A3B"
-theme[gpu_temp]    = "#B91A3B"
-theme[cpu_text]    = "#7F7A7B"
+theme[power]       = "#BF1111"
+theme[cpu_power]   = "#BF1111"
+theme[watts]       = "#BF1111"
+theme[freq]        = "#BF1111"
+theme[cpu_freq]    = "#BF1111"
+theme[ghz]         = "#BF1111"
+theme[temp]        = "#EDEDED"
+theme[temp_crit]   = "#BF1111"
+theme[gpu_power]   = "#BF1111"
+theme[gpu_freq]    = "#BF1111"
+theme[gpu_temp]    = "#BF1111"
+theme[cpu_text]    = "#EDEDED"
 
 # ── End Red Monarch Theme ──

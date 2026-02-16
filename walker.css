@@ -1,11 +1,11 @@
-@define-color text #7F7A7B;
+@define-color text #EDEDED;
 @define-color base #120B0D;
-@define-color border #B91A3B70;
-@define-color foreground #7F7A7B;
+@define-color border #BF111170;
+@define-color foreground #EDEDED;
 @define-color background #10090B;
 @define-color hover #160A0D;
-@define-color accent #B91A3B;
-@define-color glow #D51D42;
+@define-color accent #BF1111;
+@define-color glow #BF1111;
 
 window .box-wrapper {
   background: alpha(@background, 0.95);
